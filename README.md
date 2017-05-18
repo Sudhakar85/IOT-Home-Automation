@@ -10,6 +10,7 @@ Purpose of the project to Remote control MP3 player in home through internet usi
 5. DF Player
 6. Micro SD Card
 7. 1k Resistor
+8. Speaker
 
 # 1. ESP8266 Wemos D1 Setup
   Refer my previous Project https://github.com/Sudhakar85/IOT-ESP8266 for Arduino IDE and ESP8266 Setup for programming
