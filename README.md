@@ -78,6 +78,6 @@ Follow the below PIN diagram and setup the connection. Added 1K resistor to avoi
     8. ESP8266 reads the response and send the command to play Next song
     9. Based on the user click in the Link, ESP8266 reads the query string response and send the respective PLAY/STOP/NEXT/PREV
     commands.    
-    10. Close the cliend connection 
+    10. Close the client connection 
     
     
