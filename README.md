@@ -45,7 +45,7 @@ Follow the below PIN diagram and setup the connection. Added 1K resistor to avoi
     Refer the manual ![Manual](/DFPlayer Mini Manual.pdf "Manual") for more information and examples
     
    
-   # 5. Upload Sketch   
+  # 5. Upload Sketch   
    Take HomeAutomation.ino file from this Repostary and modify below code before upload
    
    Change below code to add your WIFI name and password
@@ -61,11 +61,11 @@ Follow the below PIN diagram and setup the connection. Added 1K resistor to avoi
    
    Change the device IP Address based on your need
    
-    IPAddress ip(192, 168, 1, 100); // Desired IP Address
+    IPAddress ip(192, 168, 1, 100);
     
-    Once you modified, upload the code into ESP8266 using Arduino IDE
+   Once you modified, upload the code into ESP8266 using Arduino IDE
     
-    # 5. Program Logic
+ # 5. Program Logic
     
     1. ESP8266 power up
     2. Connect WIFI network
