@@ -1,7 +1,7 @@
 # IOT-Home-Automation
-Purpose of the project to control Arduino MP3 player through internet using ESP8266
+Purpose of the project to Remote control MP3 player in home through internet using ESP8266 Wemos D1
 
-#Things Needed
+# Things Needed
 
 1. ESP8266 Wemos D1 board
 2. Jummper Wire
@@ -36,15 +36,14 @@ Specification:
       MP3Format                  2、Support sampling rate (KHZ):8/11.025/12/16/22.05/24/32/44.1/48
                                          3、Support Normal、Jazz、Classic、Pop、Rock etc
       UART Port         Standard Serial; TTL Level; Baud rate adjustable(default baud rate is 9600)
- Working Voltage                                     DC3.2~5.0V; Type :DC4.2V
+ Working Voltage                                     DC3.2~5.0V Type DC4.2V
  Standby Current                                                 20mA
        Operating
                                                                -40~+70
       Temperature
        Humidity                                                5% ~95%
-
-
-Pin Description:                                     
+       
+Pin Description:
 
    No            Pin            Description                                Note
     1            VCC           Input Voltage                   DC3.2~5.0V;Type: DC4.2V
@@ -71,7 +70,8 @@ Pin Description:
     The DF Player will receive the command through serial communication protocol. 
     The command has to be in specific format to play/Pause/Cancel music
     
-    1).For example, select the first song played, serial transmission command is: 7E FF 06 03 00 00 01 FF E6 EF
+    For example, select the first song played, serial transmission command is: 7E FF 06 03 00 00 01 FF E6 EF
+    
       7E --- START command
       FF --- Version Information
       06 --- Data length (not including parity)
@@ -82,6 +82,7 @@ Pin Description:
       FF --- Checksum high byte
       E6 --- Checksum low byte
       EF --- End Command
+    
     
     Refer the manual ![Manual](/DFPlayer Mini Manual.pdf "Manual") for more information and examples
     
